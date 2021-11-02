@@ -1,4 +1,4 @@
-name: RxAlamofire-SPM
+name: RxAlamofire
 options:
   minimumXcodeGenVersion: "2.15.1"
   developmentLanguage: en
