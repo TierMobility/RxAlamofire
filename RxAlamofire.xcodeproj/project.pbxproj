@@ -3,27 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		041D6FF25AE14FA25225F9B9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7CA2B52B3C04F26367D69C1E /* RxCocoa */; };
 		0F06CE8E560E25CE64586F82 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 45EE6E74CED0C789F012C5AC /* Alamofire */; };
 		0F66BC4F07362FA74E412511 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25242121D0F60BE616D5EAE2 /* RxSwift */; };
-		2BF60342DB02453ECA187742 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DA39F834EBFB0518C5A4CD70 /* RxSwift */; };
 		341E065130020257E48BE616 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 684679D111F8B5B54C3A1363 /* RxRelay */; };
 		3789C517E378FEC3EB51F5E7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FA8C877E8AF2CE71AAC03F8E /* Alamofire */; };
 		3A9B2AAE03A3B9B67EF1A1E8 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = B121EDE47B89D7DCBF7DDEA2 /* RxRelay */; };
-		514D20343995136DB1F6E4A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5F1813CB23000505EA122FCF /* Alamofire */; };
 		764568F4CAC63E1D77395EFA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FE835B92E199C388C5C5F895 /* RxCocoa */; };
 		76A10239C4C9FD64509C7992 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E69F32B668522EB93F1A6E71 /* RxSwift */; };
 		88F830924B46A5FC8BA5F49E /* URLSession+RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B4133A55A47C529A248E /* URLSession+RxAlamofire.swift */; };
 		AB13E710B077474DA7F0E87D /* RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135F48C8341D861BB741107 /* RxAlamofire.swift */; };
 		B1F33F3BDFAF63BBDF41389F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C64D00BFD322C52DF157105B /* Alamofire */; };
 		C56FE63B3E7628BCCE22D4FF /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = AC4B4660E5CC810EBA755CBB /* RxRelay */; };
-		CBB2FF7D7064A72BE8CE35ED /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E675485549D50899EDB452B4 /* RxRelay */; };
 		D085A39F3AA5E73EA3040FD7 /* URLSession+RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B4133A55A47C529A248E /* URLSession+RxAlamofire.swift */; };
 		D533A0D615A572BCCB2AABA4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C407B19634AFBFE1FE915679 /* RxSwift */; };
+		D7235E6F2732D5F6008BCD43 /* Alamofire.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7235E6E2732D5F6008BCD43 /* Alamofire.xcframework */; };
+		D7235E752732D612008BCD43 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7235E722732D611008BCD43 /* RxSwift.xcframework */; };
+		D7235E772732D612008BCD43 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7235E732732D611008BCD43 /* RxCocoa.xcframework */; };
+		D7235E792732D612008BCD43 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7235E742732D611008BCD43 /* RxRelay.xcframework */; };
 		D9EC6C5C0EA4F965F39C9441 /* RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135F48C8341D861BB741107 /* RxAlamofire.swift */; };
 		DA230BED4459CEA6CE50AE7D /* RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3135F48C8341D861BB741107 /* RxAlamofire.swift */; };
 		DA31CEC2113A1063F1A8DCBA /* URLSession+RxAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC1B4133A55A47C529A248E /* URLSession+RxAlamofire.swift */; };
@@ -37,10 +37,14 @@
 		0EC1B4133A55A47C529A248E /* URLSession+RxAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+RxAlamofire.swift"; sourceTree = "<group>"; };
 		21B247CF1664B5268790D3A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3135F48C8341D861BB741107 /* RxAlamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofire.swift; sourceTree = "<group>"; };
-		6B365935DDEE06324FC39C7D /* RxAlamofire watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxAlamofire watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FF0E111A2AA444531BBEF4E /* RxAlamofire iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxAlamofire iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E0A5D782C3C6C8F03FFF815 /* RxAlamofire tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxAlamofire tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A959128E6F8E1C6D5C3C6F1D /* RxAlamofire macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RxAlamofire macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B365935DDEE06324FC39C7D /* RxAlamofire watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxAlamofire watchOS.framework"; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF0E111A2AA444531BBEF4E /* RxAlamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0A5D782C3C6C8F03FFF815 /* RxAlamofire tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxAlamofire tvOS.framework"; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959128E6F8E1C6D5C3C6F1D /* RxAlamofire macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "RxAlamofire macOS.framework"; path = RxAlamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7235E6E2732D5F6008BCD43 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
+		D7235E722732D611008BCD43 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		D7235E732732D611008BCD43 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		D7235E742732D611008BCD43 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				514D20343995136DB1F6E4A0 /* Alamofire in Frameworks */,
-				2BF60342DB02453ECA187742 /* RxSwift in Frameworks */,
-				041D6FF25AE14FA25225F9B9 /* RxCocoa in Frameworks */,
-				CBB2FF7D7064A72BE8CE35ED /* RxRelay in Frameworks */,
+				D7235E6F2732D5F6008BCD43 /* Alamofire.xcframework in Frameworks */,
+				D7235E792732D612008BCD43 /* RxRelay.xcframework in Frameworks */,
+				D7235E752732D612008BCD43 /* RxSwift.xcframework in Frameworks */,
+				D7235E772732D612008BCD43 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +98,7 @@
 		1BEC4E621B883F837B2BD913 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8FF0E111A2AA444531BBEF4E /* RxAlamofire iOS.framework */,
+				8FF0E111A2AA444531BBEF4E /* RxAlamofire.framework */,
 				A959128E6F8E1C6D5C3C6F1D /* RxAlamofire macOS.framework */,
 				9E0A5D782C3C6C8F03FFF815 /* RxAlamofire tvOS.framework */,
 				6B365935DDEE06324FC39C7D /* RxAlamofire watchOS.framework */,
@@ -115,6 +119,7 @@
 			children = (
 				CEB3E900EFCAB3BD5EE63B8B /* RxAlamofire */,
 				1BEC4E621B883F837B2BD913 /* Products */,
+				D7235E6D2732D5F6008BCD43 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -130,6 +135,17 @@
 			);
 			name = RxAlamofire;
 			path = Sources/RxAlamofire;
+			sourceTree = "<group>";
+		};
+		D7235E6D2732D5F6008BCD43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7235E732732D611008BCD43 /* RxCocoa.xcframework */,
+				D7235E742732D611008BCD43 /* RxRelay.xcframework */,
+				D7235E722732D611008BCD43 /* RxSwift.xcframework */,
+				D7235E6E2732D5F6008BCD43 /* Alamofire.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,13 +164,9 @@
 			);
 			name = "RxAlamofire iOS";
 			packageProductDependencies = (
-				5F1813CB23000505EA122FCF /* Alamofire */,
-				DA39F834EBFB0518C5A4CD70 /* RxSwift */,
-				7CA2B52B3C04F26367D69C1E /* RxCocoa */,
-				E675485549D50899EDB452B4 /* RxRelay */,
 			);
 			productName = "RxAlamofire iOS";
-			productReference = 8FF0E111A2AA444531BBEF4E /* RxAlamofire iOS.framework */;
+			productReference = 8FF0E111A2AA444531BBEF4E /* RxAlamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A776096A786BE57F11C5B9FA /* RxAlamofire tvOS */ = {
@@ -231,8 +243,6 @@
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = RxSwiftCommunity;
-				TargetAttributes = {
-				};
 			};
 			buildConfigurationList = FE3A4B4109842298484A21D5 /* Build configuration list for PBXProject "RxAlamofire" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -695,11 +705,6 @@
 			package = D28B8137AC62B2624388B421 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		5F1813CB23000505EA122FCF /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D28B8137AC62B2624388B421 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
 		646E5D0BB06BD7A3CF68A880 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
@@ -709,11 +714,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
-		};
-		7CA2B52B3C04F26367D69C1E /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
 		};
 		AC4B4660E5CC810EBA755CBB /* RxRelay */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -735,20 +735,10 @@
 			package = D28B8137AC62B2624388B421 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		DA39F834EBFB0518C5A4CD70 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
 		DF43F6BF098E449F1AEAD51D /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
-		};
-		E675485549D50899EDB452B4 /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8C4ACD14803E17452F982358 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
 		};
 		E69F32B668522EB93F1A6E71 /* RxSwift */ = {
 			isa = XCSwiftPackageProductDependency;
